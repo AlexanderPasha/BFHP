@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BitFlip</string>
+    <string name="about_text" formatted="false">
+        BitFlip Helper - простой помощник в торговле на бирже BitFlip. Теперь можно забыть о работе с калькулятором, приложение подскажет, в какой валютной паре лучше купить или продать криптовалюту.\n \n   Все расчеты ведутся в пересчете на доллар, т.е если, к примеру, Вы хотите мгновенно приобрести BTC, и приложение подсказывает - \"Buy now: USD(1,02%)\", это означает, что мгновенно купить по самой низкой цене из выставленных ордеров на продажу BTC в валютной паре \"BTC:USD\" на 1,02% выгоднее, чем мгновенно поменять доллары на рубли в валютной паре \"USD:RUB\" и купить BTC за рубли в паре /"USD:RUB/". Расчеты ведутся с учетом комиссий биржы. Аналочично, если Вы решили мгновенно продать BTC, а приложение подсказывает Вам - \"Sell now: RUB(3,04%)\", это означает, что продать лучше сейчас в валютной паре \"BTC:RUB\", затем купить usd в валютной паре \"USD:RUB\" и это будет на 3,04% выгоднее, чем продать в валютной паре \"BTC:USD\". \"Spread\" по валютной паре тоже считается с учетом комиссий биржы.\n \n Зеленым цветом показывает лучшую пару для выставления ордера. Если "зеленая" цена USD-BUY, значит это минимальная цена для покупки криптовалюты и поставить ордер в этой паре будет выгоднее (сработает Ваш ордер или нет - это уже другой вопрос)). \n \n  Данные показатели не научат Вас правильно торговать и зарабатывать с торговли на бирже, но очень сильно помогут Вам и сэкономят кучу времени на рутинные просчеты.
+    </string>
+    <string name="about">О приложении</string>
+    <string name="register">Зарегистрироваться на бирже</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="getPro">Надоела реклама?</string>
+    <string name="getExmo">Exmo Helper</string>
+    <string name="ballance">USD:</string>
+    <string name="title_activity_bag">Balance</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="getWex">Wex Helper</string>
+
+    <string-array name="coins" id="coinNamesId">
+        <item>BTC</item>
+        <item>LTC</item>
+        <item>ETH</item>
+        <item>XRP</item>
+        <item>TRX</item>
+        <item>FLIP</item>
+        <item>DASH</item>
+        <item>DOGE</item>
+        <item>BCH</item>
+        <item>R</item>
+        <item>RMC</item>
+        <item>BTG</item>
+        <item>XRB</item>
+        <item>FOOD</item>
+        <item>REAL</item>
+        <item>EOS</item>
+        <item>BTW</item>
+        <item>LINDA</item>
+        <item>BEN</item>
+        <item>CSC</item>
+    </string-array>
+</resources>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#371354</color>
+    <color name="colorPrimaryDark">#371354</color>
+    <color name="colorAccent">#371354</color>
+    <color name="colorGrayBackground">#ecedf6</color>
+    <color name="colorMainOrange">#f07d05</color>
+    <color name="bestProfitColor">#42f48f</color>
+
+
+    <color name="text_color_dark">#0e0e0e</color>
+    <color name="text_color_white">#ffffff</color>
+</resources>

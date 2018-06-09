@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "21343745135",
+    "firebase_url": "https://bitflipproject.firebaseio.com",
+    "project_id": "bitflipproject",
+    "storage_bucket": "bitflipproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21343745135:android:a11e02ffa56620bf",
+        "android_client_info": {
+          "package_name": "com.mannydev.bitfliphelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21343745135-km71f4sjrec85dc0n7cjs6jh0of81oka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAue9b2G-TRT6nePFgsbh0ja522q0Wwq4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
