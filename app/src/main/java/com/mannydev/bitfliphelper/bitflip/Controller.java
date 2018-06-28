@@ -16,11 +16,11 @@ public class Controller implements Observer {
     private Pair usdRub, btcUsd, btcRub, ltcUsd, ltcRub,
             ethUsd, ethRub, xrpUsd, xrpRub, trxUsd, trxRub, flipUsd, flipRub,
             dashUsd, dashRub, dogeUsd, dogeRub, bchUsd, bchRub, rUsd, rRub,
-            rmcUsd, rmcRub, btgUsd, btgRub, xrbUsd, xrbRub, foodUsd, foodRub, realUsd, realRub,
+            rmcUsd, rmcRub, btgUsd, btgRub, nanoUsd, nanoRub, foodUsd, foodRub, realUsd, realRub,
             eosUsd,eosRub,btwUsd,btwRub,lindaUsd,lindaRub, benUsd, benRub, cscUsd, cscRub;
 
     private Coin btc, ltc, eth, xrp, trx, flip,
-            dash, doge, bch, r, rmc, btg, xrb, food, real, eos, btw,linda, ben, csc;
+            dash, doge, bch, r, rmc, btg, nano, food, real, eos, btw,linda, ben, csc;
 
     Observable observable;
     ArrayList<Coin> coins;
@@ -66,8 +66,8 @@ public class Controller implements Observer {
         this.rmcRub = b.getRmcRub();
         this.btgUsd = b.getBtgUsd();
         this.btgRub = b.getBtgRub();
-        this.xrbUsd = b.getXrbUsd();
-        this.xrbRub = b.getXrbRub();
+        this.nanoUsd = b.getNanoUsd();
+        this.nanoRub = b.getNanoRub();
         this.foodUsd = b.getFoodUsd();
         this.foodRub = b.getFoodRub();
         this.realUsd = b.getRealUsd();
@@ -97,7 +97,7 @@ public class Controller implements Observer {
         this.r = new Coin("R", rUsd, rRub, usdRub);
         this.rmc = new Coin("RMC", rmcUsd, rmcRub, usdRub);
         this.btg = new Coin("BTG", btgUsd, btgRub, usdRub);
-        this.xrb = new Coin("XRB", xrbUsd, xrbRub, usdRub);
+        this.nano = new Coin("NANO", nanoUsd, nanoRub, usdRub);
         this.food = new Coin("FOOD", foodUsd, foodRub, usdRub);
         this.real = new Coin("REAL", realUsd, realRub, usdRub);
         this.eos = new Coin("EOS", eosUsd, eosRub, usdRub);
@@ -122,7 +122,7 @@ public class Controller implements Observer {
         coins.add(r);
         coins.add(rmc);
         coins.add(btg);
-        coins.add(xrb);
+        coins.add(nano);
         coins.add(food);
         coins.add(real);
         coins.add(eos);

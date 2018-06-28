@@ -154,9 +154,9 @@ public class MyTokensListViewAdapter extends BaseAdapter {
             usd = bitflip.getBtgUsd().getBuy()*token.getBallance();
             txtProfit.setText(calcProfit(bitflip.getBtgUsd().getBuy(),token.getPrice()));
         }
-        if(token.getName().equals("XRB")){
-            usd = bitflip.getXrbUsd().getBuy()*token.getBallance();
-            txtProfit.setText(calcProfit(bitflip.getXrbUsd().getBuy(),token.getPrice()));
+        if(token.getName().equals("NANO")){
+            usd = bitflip.getNanoUsd().getBuy()*token.getBallance();
+            txtProfit.setText(calcProfit(bitflip.getNanoUsd().getBuy(),token.getPrice()));
         }
         if(token.getName().equals("FOOD")){
             usd = bitflip.getFoodUsd().getBuy()*token.getBallance();

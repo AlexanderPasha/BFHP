@@ -312,8 +312,8 @@ public class BagActivity extends AppCompatActivity {
         if (token.getName().equals("BTG")) {
             usd = bitflip.getBtgUsd().getBuy() * token.getBallance();
         }
-        if (token.getName().equals("XRB")) {
-            usd = bitflip.getXrbUsd().getBuy() * token.getBallance();
+        if (token.getName().equals("NANO")) {
+            usd = bitflip.getNanoUsd().getBuy() * token.getBallance();
         }
         if (token.getName().equals("FOOD")) {
             usd = bitflip.getFoodUsd().getBuy() * token.getBallance();
