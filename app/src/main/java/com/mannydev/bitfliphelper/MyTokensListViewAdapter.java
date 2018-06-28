@@ -42,7 +42,7 @@ public class MyTokensListViewAdapter extends BaseAdapter {
         coinsLogos.put("R","https://s2.coinmarketcap.com/static/img/coins/32x32/2135.png");
         coinsLogos.put("RMC","https://s2.coinmarketcap.com/static/img/coins/32x32/2125.png");
         coinsLogos.put("BTG","https://s2.coinmarketcap.com/static/img/coins/32x32/2083.png");
-        coinsLogos.put("XRB","https://cryptocash.guru/wp-content/uploads/2018/01/Raiblocks-e1515532746199.png");
+        coinsLogos.put("NANO","https://s2.coinmarketcap.com/static/img/coins/32x32/1567.png");
         coinsLogos.put("FOOD","https://pbs.twimg.com/profile_images/933964866565615616/TV8E8ssQ_400x400.jpg");
         coinsLogos.put("REAL","https://s2.coinmarketcap.com/static/img/coins/32x32/2030.png");
         coinsLogos.put("EOS","https://s2.coinmarketcap.com/static/img/coins/32x32/1765.png");
@@ -50,6 +50,7 @@ public class MyTokensListViewAdapter extends BaseAdapter {
         coinsLogos.put("LINDA","https://s2.coinmarketcap.com/static/img/coins/32x32/1814.png");
         coinsLogos.put("BEN","https://pbs.twimg.com/profile_images/966035484513308672/xI-Lg2u8_400x400.jpg");
         coinsLogos.put("CSC","https://s2.coinmarketcap.com/static/img/coins/32x32/45.png");
+        coinsLogos.put("OMG","https://s2.coinmarketcap.com/static/img/coins/32x32/1808.png");
 
 
     }
@@ -185,6 +186,10 @@ public class MyTokensListViewAdapter extends BaseAdapter {
         if(token.getName().equals("CSC")){
             usd = bitflip.getCscUsd().getBuy()*token.getBallance();
             txtProfit.setText(calcProfit(bitflip.getCscUsd().getBuy(),token.getPrice()));
+        }
+        if(token.getName().equals("OMG")){
+            usd = bitflip.getOmgUsd().getBuy()*token.getBallance();
+            txtProfit.setText(calcProfit(bitflip.getOmgUsd().getBuy(),token.getPrice()));
         }
         txtUsd.setText(roundResult(usd));
         return view;
